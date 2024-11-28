@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Define the relative path to the model folder
-model_folder = "../model/"
+model_folder = "./Model/"
 # Load the saved model, scaler, and selected features
 best_mlp = joblib.load(os.path.join(model_folder, 'best_mlp_model.pkl'))
 selected_features = joblib.load(os.path.join(model_folder, 'selected_features.pkl'))
