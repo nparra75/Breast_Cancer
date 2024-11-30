@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import os
 
+
 # Define the relative path to the model folder
 model_folder = "./Model/"
 # Load the saved model, scaler, and selected features
@@ -12,11 +13,11 @@ selected_features = joblib.load(os.path.join(model_folder, 'selected_features.pk
 scaler = joblib.load(os.path.join(model_folder, 'scaler.pkl'))
 
 # App title
-st.title("Breast Cancer Prediction")
+st.title("Breast Cancer Prediction App")
 
 # User input for features
 user_data = []
-st.write("Enter feature values for prediction:")
+st.write("👩‍⚕️ Enter Patient Details")
 
 
 for feature in selected_features:
