@@ -24,7 +24,7 @@ How Users Can Get Started with the Project
     2. Navigate to the Project Directory: cd Breast_Cancer 
     3. Install Dependencies: pip install -r requirements.txt
     4. Prepare the Files:
-        - model/: Contains the pre-trained model, scaler, and selected feature files.
+        - model/: Contains the pre-trained model, scaler, and selected feature files (This feature selected file is not used in this version, but could be used in future implementations to comparing with other feature selection technique).
         - UI/: Contains the app.py Streamlit application.
 
 Run the App
