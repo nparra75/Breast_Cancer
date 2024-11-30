@@ -33,4 +33,4 @@ Run the App
         - streamlit run app.py
 
 Access the APP
-    Open the provided local URL (e.g., http://localhost:8501) in any web browser to interact with the app.
+    Open the provided local URL http://localhost:8501)](https://nparra75-breast-cancer-uiapp-4gsg3p.streamlit.app/ in any web browser to interact with the app.
